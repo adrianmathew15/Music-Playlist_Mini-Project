@@ -1,0 +1,13 @@
+    SONGNAME                ARTIST             DURATION
+1.  Mountain_dew            Stanley_bros         2:45
+2.  Where_were_you          Alan_Jackson         3:40
+3.  Country_roads           John_Denver          3:09
+4.  Ring_of_fire            Johnny_Cash          2:38
+5.  Take_my_hand            Jim_Reeves           2:44
+6.  Sixteen_Tons            Ernie_Ford           4:30
+7.  Crazy_Arms              Ray_Price            2:10
+8.  Waterloo                Stonewall_Jack       3:29
+9.  Elvira                  Oak_ridge_bros       4:30
+10. Forever_and_ever        Randy_Travis         3:34
+   
+
