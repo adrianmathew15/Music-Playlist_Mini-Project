@@ -1,4 +1,4 @@
-﻿**CHAPTER – 1**
+﻿## **CHAPTER – 1**
 
 **INTRODUCTION**
 
@@ -6,7 +6,7 @@
 
 Create a playlist that is a collection/list of songs. Each song is represented by Song name, Artist and Duration. Basic operations like inserting a song, deleting a song and displaying the playlist need to be included. While displaying the playlist the number of songs and total duration of the playlist should be shown. Along with basic operations, the following features need to be added:
 
-1\. Search for a song  
+1. Search for a song  
 2. Sort the playlist by Song name, Artist and Duration  
 3. Reverse the playlist  
 4. Shuffle the playlist in random order  
@@ -21,7 +21,7 @@ Create a playlist that is a collection/list of songs. Each song is represented b
 
 Here is the list of actions that need to be accomplished -
 
-1\. Choose the appropriate data structure/s to implement the playlist and learn about the chosen data structure's.  
+1. Choose the appropriate data structure/s to implement the playlist and learn about the chosen data structure's.  
 2. Design the overall algorithm/flowchart of the program.  
 3. Implement basic functionalities step by step: For insert and delete provide options for the user to choose a specific position to insert/delete the song. For display use a proper format for different headings and show the number of songs and total duration  
 4. Implement the extended functionalities mentioned in the problem statement.  
@@ -30,65 +30,47 @@ Here is the list of actions that need to be accomplished -
 7. Change the background color while a song is playing.  
 8. Save the contents of the playlist to a file and retrieve a saved playlist from a file.  
 9. Keep testing the program after every step.  
-##
-##
-##
-## **1.3 METHODOLOGY** 
-A menu-driven interface using switch case statements will be followed. Memory will be allocated at run time for the playlist. Based on the user’s choice from the menu the respective function will be executed. For this project, a singly linked list has been used to implement the playlist wherein each node represents a song and its attributes. Arrays are used to store various names like song names and file names. The concept of threads has been used to change the background color simultaneously as a song is playing. File handling concepts were used to search for songs, read, and write to files.
 
-##
-##
+
+**1.3 METHODOLOGY** 
+A menu-driven interface using switch case statements will be followed. Memory will be allocated at run time for the playlist. Based on the user’s choice from the menu the respective function will be executed. For this project, a singly linked list has been used to implement the playlist wherein each node represents a song and its attributes. Arrays are used to store various names like song names and file names. The concept of threads has been used to change the background color simultaneously as a song is playing. File handling concepts were used to search for songs, read, and write to files.
 
 **1.4 EXPECTED OUTCOMES**
 
-1\. The user gets to manage his/her songs in a proper playlist.  
+1. The user gets to manage his/her songs in a proper playlist.  
 2. The playlist can be made offline and retrieved when the application is run again.  
 3. User saves time in searching for songs.  
 4. User gets to create special melodies by combining specific songs in the playlist.  
 5. Get an enhanced experience with a background colour change.  
 
-## **1.5 HARDWARE AND SOFTWARE REQUIREMENTS**
-##
-## **Hardware requirements** -  
+**1.5 HARDWARE AND SOFTWARE REQUIREMENTS**
+
+**Hardware requirements** -  
 A computer  
 Dual-core 2Ghz processor recommended for optimal performance  
 At least 1GB of Storage  
 2GB RAM  
 
-##
-## **Software requirements** – 
+**Software requirements** – 
 An IDE to develop C code (like Dev C++)  
 Preferably a Windows Operating system  
 Text files for Music library.  
-##
 
 
-
-
-
-**CHAPTER 2**
+## **CHAPTER 2**
 
 **DATA STRUCTURES**
 
 **2.1 LINKED LIST**
 
 The items of a linked list are stored at non-contiguous memory addresses and are arranged in a linear data structure without a defined size.
+Each element is represented by a node, which has data and a reference to the node after it. The Head pointer is a reference to the first element. The final node's connection is NULL, indicating that the linked list has ended. In this project, the entire playlist is represented by a singly linked list. Each node of the linked list has three data fields namely the Song name, Artist, duration and pointer to the next song. 
 
-**Fig. 2.1: Linked-list representation**
-
-The preceding is a logical illustration of a singly linked list. Each element is represented by a node, which has data and a reference to the node after it. The Head pointer is a reference to the first element. The final node's connection is NULL, indicating that the linked list has ended. 
-
-In this project, the entire playlist is represented by a singly linked list. Each node of the linked list has three data fields namely the Song name, Artist, duration and pointer to the next song. 
+![Linked List Representation](C:\Users\mary6\OneDrive\Pictures\ll-rep)
 
 **Features of a Linked list**: 
 
 - **Cost of Accessing an Element**: In a linked list, direct access is not feasible; instead, we must traverse the current reference to the requested element. The number of nodes affects how easily you can access the items.
-
-
-
-
-
-
 
 **Fig. 2.2: Linked-list accessing**
 
