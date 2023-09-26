@@ -26,15 +26,15 @@ Here is the list of actions that need to be accomplished -
 ## **1.5 HARDWARE AND SOFTWARE REQUIREMENTS**
 ##
 ## **Hardware requirements** -  
-## A computer 
-## Dual-core 2Ghz processor recommended for optimal performance
-## At least 1GB of Storage
-## 2GB RAM
+A computer 
+Dual-core 2Ghz processor recommended for optimal performance
+At least 1GB of Storage
+2GB RAM
 ##
 ## **Software requirements** – 
-## An IDE to develop C code (like Dev C++)
-## Preferably a Windows Operating system
-## Text files for Music library. 
+An IDE to develop C code (like Dev C++)
+Preferably a Windows Operating system
+Text files for Music library. 
 ##
 
 
@@ -113,7 +113,7 @@ In this project, Arrays have been used to store Song names, artist names and fil
 
 **A[2]** = base address + index value\*size of data type                                                                                                                                                                                            **=**          100 + 2\*4=108** 
 
-`             `**A[2] = 4**     
+**A[2] = 4**     
 
 Time complexity = O(1)** 
 
@@ -227,7 +227,7 @@ Step-5: Repeat steps 2 to 4 until the user selects "Exit."
 
 ##
 ## **CHAPTER 4**
-`                                        `**CONCLUSION**
+**CONCLUSION**
 
 Playlists offer a convenient way to organize and listen to music, allowing users to have all their favourite songs in one place, ready to play at any time. The music playlist has successfully been implemented using the C programming language. Various algorithms, functions and data structures were used to store, manage and play songs in a user-friendly manner. They can also arrange the order of the songs to match their mood or preferences. Playlists can act as a musical diary, helping to recall memories and emotions associated with specific songs. The Music library serves as a source to refer to for new song names. The playlist can be saved offline and revived when the application is run again.  Some of the future enhancements that can be integrated are – when the project is extended to play real MP3 songs, a remix feature can be added to make a new version of a song by combining different songs taking their timestamps and making new melodies. Currently, only one playlist can be created, it can be extended to manage multiple playlists for different categories. 
 
@@ -268,10 +268,3 @@ Playlists offer a convenient way to organize and listen to music, allowing users
 8\. https://www.ibm.com/docs/en/zos/2.4.0?topic=functions-pthread-create-create-thread
 
 9\. Data Structures through C in depth by authors S.K. Srivastava and Deepali Srivastava
-
-
-
-
-
-11
-
