@@ -1,5 +1,0 @@
-SONG NAME                      ARTIST                             DURATION
-
-Joy                            Robin                               02:03
-Hello                          World                               03:04
-Moonlight_Sonata               Beethoven                           02:52
