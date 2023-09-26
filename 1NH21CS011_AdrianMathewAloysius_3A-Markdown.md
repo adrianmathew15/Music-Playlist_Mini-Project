@@ -6,8 +6,16 @@
 
 Create a playlist that is a collection/list of songs. Each song is represented by Song name, Artist and Duration. Basic operations like inserting a song, deleting a song and displaying the playlist need to be included. While displaying the playlist the number of songs and total duration of the playlist should be shown. Along with basic operations, the following features need to be added:
 
-1\. Search for a song                                                                                                                                                     2. Sort the playlist by Song name, Artist and Duration                                                                                                                     3. Reverse the playlist                                                                                                                                                     
-4. Shuffle the playlist in random order                                                                                                                                   5. Create a music library of different genres and the user should be able to select a particular song and add it to the playlist                                            6. Play option to go through the songs                                                                                                                                    7. While a song is playing the background color should keep changing                                                                                                      8. Save option to store the contents of the playlist in a separate file                                                                                                   9. Open option to retrieve a saved playlist 
+1\. Search for a song  
+2. Sort the playlist by Song name, Artist and Duration  
+3. Reverse the playlist  
+4. Shuffle the playlist in random order  
+5. Create a music library of different genres and the user should be able to select a particular song and add it to the playlist  
+6. Play option to go through the songs  
+7. While a song is playing the background color should keep changing  
+8. Save option to store the contents of the playlist in a separate file  
+9. Open option to retrieve a saved playlist  
+
 
 **1.2 OBJECTIVES**
 
@@ -19,9 +27,9 @@ Here is the list of actions that need to be accomplished -
 ##
 ##
 ## **1.3 METHODOLOGY** 
-##
 A menu-driven interface using switch case statements will be followed. Memory will be allocated at run time for the playlist. Based on the user’s choice from the menu the respective function will be executed. For this project, a singly linked list has been used to implement the playlist wherein each node represents a song and its attributes. Arrays are used to store various names like song names and file names. The concept of threads has been used to change the background color simultaneously as a song is playing. File handling concepts were used to search for songs, read, and write to files.
-##
+
+
 **1.4 EXPECTED OUTCOMES**
 
 1\. The user gets to manage his/her songs in a proper playlist.                                                                                                           2. The playlist can be made offline and retrieved when the application is run again.                                                                                      3. User saves time in searching for songs.                                                                                                                                 4. User gets to create special melodies by combining specific songs in the playlist.                                                                                       5. Get an enhanced experience with a background colour change.        
